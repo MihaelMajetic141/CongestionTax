@@ -9,7 +9,7 @@ How to read CSV files and save them to Java objects?
 
 What would be the best way to externalize application parameters?
 Should the parameters be loaded from config file or from database?
--  YAML config file -> simplicity.
+- YAML config file -> simplicity.
 - Database -> good if the rules will be updated via UI.
 
 Loading configuration best practices?
@@ -20,9 +20,9 @@ Java Stream function for date range?
 
 What would be the simplest and most logical data model for this application?
 - Camera records vehicle's registration and saves it to database together with timestamp. (Passage table)
-- Vehicle should have a defined type and registration as primary key. (Vehicle table)
+- Vehicle should have registration as primary key and a defined type. (Vehicle table)
 
 What endpoints will users most likely need?
-- Calculate tax for a given registration and date / date range,
+- Calculate tax for a given registration and date or date range.
 - Calculate tax for all vehicles that passed in given date period.
 - Save new passages and vehicles.

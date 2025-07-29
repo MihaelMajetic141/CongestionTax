@@ -1,5 +1,5 @@
 
-#  Congestion Tax Calculator
+# 💻 Congestion Tax Calculator
 
 A Spring Boot application that calculates daily, monthly, and yearly congestion tax for vehicles based on timestamped passages. <br>
 Comes with a PostgreSQL database and Docker Compose setup for one‐command startup.
@@ -29,9 +29,9 @@ Comes with a PostgreSQL database and Docker Compose setup for one‐command star
 
 ## 🔧 Prerequisites
 
-- Java 21 (for local build)  
-- Docker & Docker Compose  
-- Git
+- [Java 21](https://www.oracle.com/java/technologies/downloads/#java21) (for local build)  
+- [Docker & Docker Compose](https://docs.docker.com/get-started/get-docker/)
+- [Git](https://github.com/git-guides/install-git)
 
 ---
 
@@ -53,6 +53,7 @@ Comes with a PostgreSQL database and Docker Compose setup for one‐command star
 
     * Service: `http://localhost:8080`
     * Health:  `http://localhost:8080/actuator/health`
+   
 
 4. **Reset & rebuild** (fresh DB)
 
@@ -87,7 +88,7 @@ All settings can be found in `src/main/resources` directory and can be overridde
 
 ---
 
-## 🧪 Testing
+## 🔬 Testing
 
 Run tests with:
 
