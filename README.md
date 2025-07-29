@@ -1,5 +1,5 @@
 
-# 🚦 Congestion Tax Calculator
+#  Congestion Tax Calculator
 
 A Spring Boot application that calculates daily, monthly, and yearly congestion tax for vehicles based on timestamped passages. <br>
 Comes with a PostgreSQL database and Docker Compose setup for one‐command startup.
@@ -39,8 +39,8 @@ Comes with a PostgreSQL database and Docker Compose setup for one‐command star
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/MihaelMajetic141/congestion‑tax.git
-   cd congestion‑tax
+   git clone https://github.com/MihaelMajetic141/CongestionTax
+   cd CongestionTax
    ```
 
 2. **Build & run**
@@ -53,7 +53,6 @@ Comes with a PostgreSQL database and Docker Compose setup for one‐command star
 
     * Service: `http://localhost:8080`
     * Health:  `http://localhost:8080/actuator/health`
-
 
 4. **Reset & rebuild** (fresh DB)
 
