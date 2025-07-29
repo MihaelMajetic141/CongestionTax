@@ -1,0 +1,57 @@
+TRUNCATE TABLE passage, vehicle RESTART IDENTITY CASCADE;
+
+INSERT INTO vehicle (registration, type) VALUES ('GB-9271-0', 'CAR');
+INSERT INTO vehicle (registration, type) VALUES ('HV-1441-MM', 'MILITARY');
+INSERT INTO vehicle (registration, type) VALUES ('EM9999', 'EMERGENCY');
+INSERT INTO vehicle (registration, type) VALUES ('ZG-2000-MM', 'FOREIGN');
+INSERT INTO vehicle (registration, type) VALUES ('G-2014-ZG', 'CAR');
+
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-01-14 21:00:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-01-15 21:00:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-02-07 06:23:27');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-02-07 15:27:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-02-08 06:27:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-02-08 06:20:27');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-02-08 14:35:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-02-08 15:29:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-02-08 15:47:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-02-08 16:01:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-02-08 16:48:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-02-08 17:49:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-02-08 18:29:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-02-08 18:35:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-03-26 14:25:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-03-28 14:07:27');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('HV-1441-MM', '2013-04-03 07:12:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-04-05 08:45:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-04-12 17:03:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('ZG-2000-MM', '2013-04-22 11:20:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-05-06 09:10:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('EM9999', '2013-05-07 18:05:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-05-08 06:47:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-05-09 16:59:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-06-02 08:00:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-06-05 14:12:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-06-11 10:23:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('HV-1441-MM', '2013-06-19 13:58:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-06-30 07:37:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-07-04 12:00:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-07-10 15:05:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-07-19 17:47:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('ZG-2000-MM', '2013-08-03 18:12:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-08-13 06:03:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-08-18 19:21:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-08-25 09:42:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-09-05 07:17:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('EM9999', '2013-09-11 13:31:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-09-16 16:45:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-10-01 08:55:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-10-12 18:15:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-10-23 07:29:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-11-03 10:10:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('HV-1441-MM', '2013-11-20 15:33:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-11-28 17:50:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('GB-9271-0', '2013-12-07 06:40:00');
+INSERT INTO passage (vehicle_registration, timestamp) VALUES ('G-2014-ZG', '2013-12-21 11:05:00');
+
+
